@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="root" path="/" id="c5fe3e64-5c9e-4960-95ff-d8dd35ea754a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c5fe3e64-5c9e-4960-95ff-d8dd35ea754afileName">%2F</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:resource name="v1" path="v1" id="5b59db09-cdf8-466b-9321-883e8572a81a">
+    <con:settings/>
+    <con:parameters/>
+    <con:resource name="builds.json" path="builds" id="d8d70289-294f-4a52-b351-cd21ab2a9fb4">
+      <con:settings>
+        <con:setting id="d8d70289-294f-4a52-b351-cd21ab2a9fb4fileName"/>
+      </con:settings>
+      <con:parameters/>
+      <con:method name="Method 1" id="0211ad47-a8ff-4598-8147-234f5a286abe" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="FAULT">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>404</con:status>
+          <con:params/>
+          <con:element xmlns:buil="https://api.guildwars2.com/v1/builds.json">buil:Fault</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="cb244796-2621-493e-b460-61972254738d" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:originalUri>https://api.guildwars2.com/v1/builds.json</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:method name="getVersionInfo" id="cdaa6123-0e41-447b-8c78-0e30bc422ceb" method="GET">
+      <con:settings/>
+      <con:parameters/>
+      <con:representation type="RESPONSE">
+        <con:mediaType>text/plain; charset=utf-8</con:mediaType>
+        <con:status>200</con:status>
+        <con:params/>
+        <con:element>data</con:element>
+      </con:representation>
+      <con:request name="Request 1" id="27b6b522-de95-481a-a223-ed6584ac90bb" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://api.guildwars2.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://api.guildwars2.com/v1</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:request>
+    </con:method>
+  </con:resource>
+  <con:resource name="v2" path="v2" id="6e77bb39-cf6d-4a31-9562-84ae0c186808">
+    <con:settings/>
+    <con:parameters/>
+    <con:resource name="account" path="account" id="25de28cc-9472-4ac3-a1e8-76b2932982a1">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="3c35a6ba-fb11-4f83-a96e-6469bba71ac7" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="c6ce0c64-be1d-49bc-bb88-87a1280bfc8e" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="achievements" path="achievements" id="20344211-f59c-4786-80b5-bbfc9c920079">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="ba9c6d07-df69-4a77-bbb6-8ff2d692d2d1" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="90673702-6f9e-459a-97ea-6eca8f58fbe4" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="adventures" path="adventures" id="497373f4-5922-4634-bc0f-fd04d6d2827d">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="98cbadcf-e035-47ef-8318-c2c33a1ff566" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="a8181438-e649-42de-8a16-ab7f23dd0529" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="backstory" path="backstory" id="c36ce122-311b-434d-b8ee-905d890f7db5">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="e4fe46d4-71c5-42ea-8471-1d443c17c243" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="6485732c-c4fb-4e04-830d-85509e7726f3" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="build" path="build" id="ea336482-c657-4896-b661-4e0079b584f3">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="5b5c4b58-bd01-40e4-9919-17974b59bd41" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="fff0f1e9-cf48-491b-9ecd-6b383cb71da1" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="characters" path="characters" id="34e647d8-32e2-4498-9b33-f1ce7e6751f3">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="c57edb76-c5e2-419c-a769-ed210052dfb6" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="fdf63821-2500-48e8-b019-e9ebece34979" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="colors" path="colors" id="da54bbb9-7383-43ac-a3f8-50f9691f0240">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="f56acdee-84ca-4950-9630-71b153537b7d" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="e8302913-75c7-4477-8e50-c0c2824fb238" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="commerce" path="commerce" id="15876e5a-9526-4b81-9117-bd9cd6ceefe4">
+      <con:settings/>
+      <con:parameters/>
+    </con:resource>
+    <con:resource name="continents" path="continents" id="cec766fd-70e4-43c5-81d3-80e687e5aa56">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="565682f6-f2c9-4414-b915-1ccbc6789759" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="14807fba-42f2-45cd-b1bc-c91b276d4631" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="currencies" path="currencies" id="ae980cb9-033d-47de-9cd2-7b88c3a11187">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="1d0db26f-81f0-49bb-9bc7-58911753a336" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="85e8fdbb-ccbc-4886-a5f8-261bfe7d5e74" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="dungeons" path="dungeons" id="2d471df7-9f76-4bb7-90fa-906aeaef49c7">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="80c73e93-e693-45b1-98e6-4d9a78c3d718" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="479eb416-6f69-45fa-9a65-f84fd9253e7c" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="emblem" path="emblem" id="2e92d8dc-41a6-4dff-ba64-08ada7c67fc6">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="91f36458-24f8-4f47-b267-6c66618f67a2" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="9858e152-111c-48fe-85e9-036439f3e3a6" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="events" path="events" id="bc9b86f2-c1ee-4890-8039-babed9f127eb">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="74d0247a-a551-47e5-ac73-14af8f70a303" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="b89875bc-3c2f-42ba-8f8c-e346af44e015" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="events-state" path="events-state" id="a8b1ca50-f79d-452f-9245-c6c68509c423">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="f14b6278-ccf2-4d90-bc58-42fa21efb40a" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="685dc212-d089-4eb4-b2c9-e5917ab43b92" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="files" path="files" id="fd3e8abc-19dc-403c-87f6-9c2f2bac8640">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="4bc8a4b2-4211-47ba-b510-fad4d8151e5f" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="9e5507bb-b8a5-4163-aab3-fc1ffe06af5f" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="finishers" path="finishers" id="ce0689dc-a270-4b86-9535-00fdcc30c47a">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="c5b7edea-103f-40dd-8a1e-7b7d869f9bbe" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="5d7176d7-8023-4559-a8f3-c87bb2491410" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="gliders" path="gliders" id="b9d238c0-a394-4532-b09c-abde4c5426c8">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="e082bc6c-8dba-479f-9bb5-73595e2896be" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="70052ea1-159e-4fe9-b6ce-72dfcf8939e6" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="guild" path="guild" id="06ddd33b-f96d-4809-8fc5-7670ca1c069b">
+      <con:settings/>
+      <con:parameters/>
+    </con:resource>
+    <con:resource name="items" path="items" id="e0233cfc-0647-4119-816b-a9129a6e1c63">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="b5a4beb6-e77f-492f-b48f-030c1e4ca067" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="3eea5bdb-ad3f-4359-86df-17e1a50d321d" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="itemstats" path="itemstats" id="eed94302-81bf-45e8-9b97-175c8ab1dc1c">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="9135b33c-0449-4d62-b5bf-96ac17817db0" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="7d785410-4353-4552-b864-bfc39b0f3b3e" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="legends" path="legends" id="6439579b-a320-48b3-a2a1-0da160ef4c54">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="a95abfda-4d0c-41c1-8c45-b0c0f1fff32f" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="74a44bb1-ab50-4255-b885-2f66a8f72c50" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="mailcarriers" path="mailcarriers" id="40149ef9-1ecf-4170-b190-605e80210141">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="98de72f2-9f46-401e-9f21-84d1661de024" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="459f8c76-d895-4e2f-b8ff-b45963aeedad" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="maps" path="maps" id="b7ff09cb-3eef-4584-b43f-b4c2b5a0469d">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="8de4c44a-139a-4e41-8308-62b4fd6bed23" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="bb8fbb3a-33a8-4bab-9560-2b567a4a71ae" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="masteries" path="masteries" id="de66c71c-6123-4be5-ba85-7d1e664d0ae0">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="897836fd-3890-4842-9418-a3c8d43b49cd" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="accd90d0-7be7-494f-b503-1eaf11803f7b" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="materials" path="materials" id="08e92b8b-25e2-4784-ba04-f9579cfe6826">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="9658de96-aae8-4bb4-9ec1-c9b0f309b6e8" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="c8ce305a-bd7d-40ed-9706-8f1fda9995b7" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="minis" path="minis" id="df3c1fd5-4778-4ada-ae1d-84e4e4f71aea">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="5b800e9f-696c-4ecd-bfda-896e8dd15860" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="9122e4d5-7adb-45f7-90b3-fdb26a1c3f30" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="outfits" path="outfits" id="b2e4ba22-a5ab-4ba8-8bb8-16adaba6ccf0">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="37a6ea4e-ae19-4316-9c9d-c5188f683afb" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="8649a1d2-74d9-4667-8256-fe6191aace68" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="pets" path="pets" id="7c69158c-31e4-4b7d-9eb8-7461436d2d5f">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="2fdf9c9a-7eaf-4f3b-a032-89ea71691fe7" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="68165ea4-2d42-4e77-ae42-d8baa11a339c" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="professions" path="professions" id="8b5fea37-512b-4919-8f1b-068186e0764c">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="0f8ba0b1-e6ba-4a26-a6a6-cc0257aab894" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="41bddcd3-e4d3-40f7-a810-a344c0b5244a" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="pvp" path="pvp" id="cb7907be-b713-4984-ac16-5f66ce9865da">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="5afe8ec7-5f05-4241-9712-050f25d6406f" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="ff97d895-5cc0-47c8-8199-01f7a621a2be" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="quaggans" path="quaggans" id="297c37f5-62b9-4b5a-ba5f-fc1b07153dc9">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="014be97c-821b-4e4d-8557-e6d06f820490" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="7dd2e310-d200-4079-a991-2a3faa774fd7" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="races" path="races" id="06626f93-e370-4593-9c7c-d66cc7443b96">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="4daf8fbc-17bc-4b18-ae56-14d58d8b727a" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="511fb035-4da7-4a8f-b568-2fb87e427ead" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="raids" path="raids" id="313a8eb8-740c-4a43-9022-bbfd9b94d10e">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="cb77bdb3-34a9-4913-82a1-bc5a2359ee68" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="47ab642a-fed6-42fe-a581-6ec8c9e6e49d" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="recipes" path="recipes" id="07b13a68-5fe7-4dc4-90f0-970157a82583">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="e325bd72-af07-45cf-8f7c-301e29c10d83" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="9958cf71-ea23-47d1-b408-5f0e4f6ce2f0" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="skills" path="skills" id="0bed2a09-8a4d-421e-ae65-8e80179f86a7">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="670bd97d-c422-4bbd-bb4a-f5334029df15" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="1912ee36-8690-4393-bf09-6e783b736bf2" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="skins" path="skins" id="25683a5a-18a5-4d72-837e-8068385a1985">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="4f6451fe-118f-433b-8e00-45d310564827" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="15dd96cf-4826-4fad-84da-0535c4227118" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="specializations" path="specializations" id="bcf93379-72c2-461e-92c2-c0e0606be93f">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="b0796065-e796-4031-958a-c386db42f1b2" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="13c85012-4248-45dc-9f72-3f9bccb1b84c" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="stories" path="stories" id="cfaa6266-26e7-432f-8c2b-865c352e23c2">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="865ac65f-9cad-4add-8d93-5f18670689cb" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="a4bcc03a-3870-40b9-8264-eef27c49f091" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="titles" path="titles" id="58895fee-b924-44ea-b0b8-1bb8c9b6c0c5">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="37d20678-4d49-46f2-99d8-74b4baf49c2a" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="e1423f9e-0879-4b2d-8856-c6f797d6f094" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="tokeninfo" path="tokeninfo" id="a7284a44-081d-4dd4-851f-a53a349710e3">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="b5dcd346-4664-482a-a9dd-439c4d80d178" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="c9f899a6-ef77-4a4d-b4b3-4e35cf140678" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="traits" path="traits" id="e675a39c-2ee2-402e-a4d9-5d413e90b08f">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="2fe630a1-2f75-44f9-a07a-742e51543432" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="b0f38d72-9426-4f35-b4e9-27a7359e6a02" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="worlds" path="worlds" id="f044eec7-99a2-47c6-88a0-a381ea0c07c4">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="048de723-73f9-448c-8210-70ce4948b481" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:request name="Request 1" id="7dbf2e1d-5c2c-4043-b8ec-9dedbcb9fecc" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.guildwars2.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="wvw" path="wvw" id="8791e694-2847-40d0-b70c-010ccd2831e9">
+      <con:settings/>
+      <con:parameters/>
+      <con:resource name="abilities" path="abilities" id="e4c0c00e-cd25-4fe6-93ad-fd2e6500f3fa">
+        <con:settings/>
+        <con:parameters/>
+        <con:resource name="{id}" path="{id}" id="26db526f-8c37-4db3-9fdd-b0a43a0e34e5">
+          <con:settings/>
+          <con:parameters>
+            <con:parameter>
+              <con:name>id</con:name>
+              <con:value>id</con:value>
+              <con:style>TEMPLATE</con:style>
+              <con:default>id</con:default>
+            </con:parameter>
+          </con:parameters>
+          <con:method name="getAbility" id="d1a545ac-c922-44e6-a38d-c44abbe5420f" method="GET">
+            <con:settings/>
+            <con:parameters/>
+            <con:representation type="RESPONSE">
+              <con:mediaType>application/json; charset=utf-8</con:mediaType>
+              <con:status>200</con:status>
+              <con:params/>
+              <con:element xmlns:ns="https://api.guildwars2.com/v2/wvw/abilities/2">ns:Response</con:element>
+            </con:representation>
+            <con:request name="Request 1" id="853c282f-0000-41d8-a678-714a005e767d" mediaType="application/json">
+              <con:settings>
+                <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              </con:settings>
+              <con:endpoint>https://api.guildwars2.com</con:endpoint>
+              <con:request/>
+              <con:originalUri>https://api.guildwars2.com/v2/wvw/abilities/2</con:originalUri>
+              <con:credentials>
+                <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+                <con:authType>No Authorization</con:authType>
+              </con:credentials>
+              <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+              <con:parameters/>
+            </con:request>
+          </con:method>
+        </con:resource>
+        <con:method name="getAbilities" id="2ab1cbef-79ab-4a1d-8e4a-0650fd81a43f" method="GET">
+          <con:settings/>
+          <con:parameters/>
+          <con:representation type="FAULT">
+            <con:mediaType>application/json; charset=utf-8</con:mediaType>
+            <con:status>404</con:status>
+            <con:params/>
+            <con:element xmlns:abil="https://api.guildwars2.com/v2/www/abilities">abil:Fault</con:element>
+          </con:representation>
+          <con:representation type="RESPONSE">
+            <con:mediaType>application/json; charset=utf-8</con:mediaType>
+            <con:status>200</con:status>
+            <con:params/>
+            <con:element>Response</con:element>
+          </con:representation>
+          <con:request name="Request 1" id="3b309091-b72c-4814-8a05-645cc5c0d9ad" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>https://api.guildwars2.com</con:endpoint>
+            <con:request/>
+            <con:originalUri>https://api.guildwars2.com/v2/www/abilities</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters/>
+          </con:request>
+        </con:method>
+      </con:resource>
+      <con:resource name="matches" path="matches" id="5c812e3c-d0e2-46bd-9163-bcbaed45d837">
+        <con:settings/>
+        <con:parameters/>
+        <con:resource name="overview" path="overview" id="1c051417-f6a9-47c0-8845-9944c9f212ad">
+          <con:settings/>
+          <con:parameters/>
+          <con:method name="getMatchOverview" id="d4665a11-4add-4ed9-802d-0b4245484661" method="GET">
+            <con:settings/>
+            <con:parameters/>
+            <con:representation type="RESPONSE">
+              <con:mediaType>application/json; charset=utf-8</con:mediaType>
+              <con:status>200</con:status>
+              <con:params/>
+              <con:element>Response</con:element>
+            </con:representation>
+            <con:request name="Request 1" id="dfce7b9f-cb14-488b-9124-1f96feaf9fa5" mediaType="application/json">
+              <con:settings>
+                <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              </con:settings>
+              <con:endpoint>https://api.guildwars2.com</con:endpoint>
+              <con:request/>
+              <con:originalUri>https://api.guildwars2.com/v2/wvw/matches/overview</con:originalUri>
+              <con:credentials>
+                <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+                <con:authType>No Authorization</con:authType>
+              </con:credentials>
+              <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+              <con:parameters/>
+            </con:request>
+          </con:method>
+        </con:resource>
+        <con:resource name="scores" path="scores" id="5115ea6c-4e61-435e-8b43-ed22c3ab9ba3">
+          <con:settings/>
+          <con:parameters/>
+          <con:method name="Method 1" id="a1aaac2d-b2da-41e7-b48e-d13c56c91ed1" method="GET">
+            <con:settings/>
+            <con:parameters/>
+            <con:request name="Request 1" id="12ef09a5-88bb-4f12-a572-e43a28c36a3c" mediaType="application/json">
+              <con:settings/>
+              <con:endpoint>https://api.guildwars2.com</con:endpoint>
+              <con:request/>
+              <con:credentials>
+                <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+                <con:authType>No Authorization</con:authType>
+              </con:credentials>
+              <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+              <con:parameters/>
+            </con:request>
+          </con:method>
+        </con:resource>
+        <con:resource name="stats" path="stats" id="e2281a7b-5c45-4fcc-9240-d5b84fff100f">
+          <con:settings/>
+          <con:parameters/>
+          <con:method name="Method 1" id="51203b8e-4385-4d7b-ae41-4881b405a1d2" method="GET">
+            <con:settings/>
+            <con:parameters/>
+            <con:request name="Request 1" id="83b70b99-b7e5-4d70-9530-6b202c67fe4e" mediaType="application/json">
+              <con:settings/>
+              <con:endpoint>https://api.guildwars2.com</con:endpoint>
+              <con:request/>
+              <con:credentials>
+                <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+                <con:authType>No Authorization</con:authType>
+              </con:credentials>
+              <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+              <con:parameters/>
+            </con:request>
+          </con:method>
+        </con:resource>
+        <con:method name="getMatches" id="c3f1ce50-eba9-4cb6-a425-260469b172c0" method="GET">
+          <con:settings/>
+          <con:parameters/>
+          <con:representation type="RESPONSE">
+            <con:mediaType>application/json; charset=utf-8</con:mediaType>
+            <con:status>200</con:status>
+            <con:params/>
+            <con:element>Response</con:element>
+          </con:representation>
+          <con:request name="Request 1" id="69a9c9c7-b042-4229-96db-e7468e39d326" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>https://api.guildwars2.com</con:endpoint>
+            <con:request/>
+            <con:originalUri>https://api.guildwars2.com/v2/wvw/matches</con:originalUri>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters/>
+          </con:request>
+        </con:method>
+      </con:resource>
+      <con:resource name="objectives" path="objectives" id="7ea40673-b0eb-416b-a628-728e7c98c063">
+        <con:settings/>
+        <con:parameters/>
+        <con:method name="Method 1" id="4cf025e7-c81b-492c-9b78-36e59d28aa10" method="GET">
+          <con:settings/>
+          <con:parameters/>
+          <con:request name="Request 1" id="fe34974c-af93-473b-b3b8-5634f3ad375b" mediaType="application/json">
+            <con:settings/>
+            <con:endpoint>https://api.guildwars2.com</con:endpoint>
+            <con:request/>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters/>
+          </con:request>
+        </con:method>
+      </con:resource>
+      <con:resource name="ranks" path="ranks" id="1af4c279-0809-4843-8874-36c0dda09060">
+        <con:settings/>
+        <con:parameters/>
+        <con:method name="Method 1" id="1b981f32-a3cc-4b9b-a3bf-9438a7198c74" method="GET">
+          <con:settings/>
+          <con:parameters/>
+          <con:request name="Request 1" id="d9e37afd-7436-49f4-9f84-a1d80dc91ca9" mediaType="application/json">
+            <con:settings/>
+            <con:endpoint>https://api.guildwars2.com</con:endpoint>
+            <con:request/>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters/>
+          </con:request>
+        </con:method>
+      </con:resource>
+      <con:resource name="upgrades" path="upgrades" id="2985fa6a-2da6-481a-810d-81dcb8669551">
+        <con:settings/>
+        <con:parameters/>
+        <con:method name="Method 1" id="dfc31f8c-fb4f-4669-83fb-3bb805b5f19e" method="GET">
+          <con:settings/>
+          <con:parameters/>
+          <con:request name="Request 1" id="f781f9d3-a70d-44ff-bd73-a27112e4387c" mediaType="application/json">
+            <con:settings/>
+            <con:endpoint>https://api.guildwars2.com</con:endpoint>
+            <con:request/>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters/>
+          </con:request>
+        </con:method>
+      </con:resource>
+    </con:resource>
+    <con:method name="getVersionInfo" id="44efa768-4798-4b58-8576-db8baa813f58" method="GET">
+      <con:settings/>
+      <con:parameters/>
+      <con:representation type="RESPONSE">
+        <con:mediaType>text/plain; charset=utf-8</con:mediaType>
+        <con:status>200</con:status>
+        <con:params/>
+        <con:element>data</con:element>
+      </con:representation>
+      <con:request name="Request 1" id="b85a5f97-4cf8-4a61-9e7c-577d001962ce" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://api.guildwars2.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://api.guildwars2.com/v2</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:request>
+    </con:method>
+  </con:resource>
+  <con:method name="getApiVersions" id="10c14e1e-c17f-4323-a4ef-029f2e738e96" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="0145e5c2-4713-428e-a585-c73a43596b76" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://api.guildwars2.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://api.guildwars2.com/</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
